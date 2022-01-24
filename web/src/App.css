@@ -1,0 +1,694 @@
+
+body {
+  color: #4b4b4b;
+  font-family: "Roboto";
+}
+
+.carousel-control-next-icon {
+  background-image: url("assets/images/right.png") !important;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.carousel-control-prev-icon{
+  background-image: url("assets/images/left.png") !important;
+  width: 35px !important;
+  height: 35px !important;
+ 
+}
+.container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+input:focus {
+  outline:0px !important;
+  -webkit-appearance:none;
+  box-shadow: none !important;
+  border-color: #3f693c!important;
+}
+
+button:focus {
+  outline:0px !important;
+  -webkit-appearance:none;
+  box-shadow: none !important;
+}
+
+.header {
+  min-height: 32px;
+  background-color: #ffffff
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-top-banner {
+  height:32px;
+  background-color : #3f693c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-top-banner > label {
+  color:#ffffff;
+  font-size: smaller;
+  margin-top:3px
+}
+
+.nav-header {
+  height:75px;
+  flex-direction:row;
+  display:flex;
+}
+
+.nav-logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-icon-cart {
+  color : #4b4b4b;
+  font-size: 18px;
+}
+
+.header-icon-user {
+  color : #4b4b4b;
+  font-size: 16px;
+}
+.menu-button-container {
+  flex:1;
+  display:flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+.menu-button {
+  background-color: transparent !important;
+  border-color :transparent !important;
+  outline:none;
+  cursor:pointer;
+}
+
+.nav-right {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-search {
+  flex:2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-search-input {
+  border-top-width: 0px !important;
+  border-left-width: 0px !important;
+  border-right-width: 0px !important;
+  border-bottom-width: 2px !important;
+  border-radius: 0px !important;
+  padding-right: 25px !important;
+  padding-left: 0px !important;
+}
+
+.nav-button-container {
+  flex:0.75;
+  display:flex;
+  flex-direction:row;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.nav-button {
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-button-search {
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none
+}
+
+.button-text {
+  color:#333333;
+  font-size:13px;
+  cursor:pointer
+}
+
+.button-transparent {
+  background-color:transparent !important;
+  border-color :transparent !important;
+  outline:none !important;
+  cursor:pointer !important
+}
+
+.footer {
+  min-height: 200px;
+}
+
+.footer-email {
+  background-color: #ededed;
+  min-height: 150px;
+  display: flex;
+  flex-direction: row;
+  color: #4b4b4b;
+  width: 90%;
+}
+
+.footer-services {
+  background-color: #4b4b4b;
+  min-height: 300px;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+}
+
+.services-bar {
+  display: flex;
+  flex-direction: row;
+  flex: 4;
+}
+
+.send-email {
+  flex:1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-text {
+  flex:1;
+  display:flex;
+  flex-direction:row
+}
+
+.email-text-icon {
+  flex:1;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.email-text-right {
+  flex:3;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  flex-direction:column;
+  margin-left:25px;
+}
+
+.email-text-title {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.email-text-exp {
+  font-size: smaller;
+  font-weight: 400;
+}
+
+.service-header {
+  flex:1;
+  justify-content: center;
+  align-items:flex-end;
+  display:flex;
+  font-weight: bolder;
+}
+
+.service-items {
+  flex:3;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 100;
+}
+
+.service {
+  flex:1;
+  display:flex;
+  flex-direction:column
+}
+
+.adress-bar {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+
+.brand {
+  flex:1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 2.2em;
+}
+
+.contact {
+  flex:2.5;
+  display:flex;
+  flex-direction:column;
+  margin: 10px;
+}
+
+.contact-adress {
+  flex:2.5;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column
+}
+
+.footer-social {
+  background-color: #afafaf;
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-social-buttons{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-rights{
+  flex: 3;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-rights > label {
+  margin: 10px;
+  color: #ffffff;
+  font-size: smaller;
+}
+
+.footer > label {
+  color: #ffffff;
+}
+
+.close-button{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: transparent;
+  border-width:0px
+}
+
+.overlay-menu-header {
+  min-height:50px;
+  width: 100%;
+  background-color: #3f693c;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.overlay-menu-body{
+  max-height: 100vh;
+  overflow: auto;
+}
+
+.MuiDrawer-paper{
+  width: 25%;
+}
+
+.menu-text {
+  color: #ffffff;
+  font-weight:600;
+  font-size:16px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 3px;
+}
+
+.exp-bar {
+  min-height: 275px;
+  display: flex;
+  flex-direction: column;
+  color: #4b4b4b;
+}
+
+.exp-title{
+ flex: 1;
+ display: flex;
+ justify-content:center;
+ align-items: flex-end;
+ font-size: 2em;
+ font-weight: 500;
+}
+
+.exp-body{
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .exp-body > label {
+   margin-left: 30px;
+   margin-right: 30px;
+   text-align: center;
+   font-size: 1.3em;
+   font-weight: 100;
+ }
+.adress {
+  font-weight: lighter;
+  text-align: center;
+}
+ .make-bolder {
+   font-weight: bolder;
+ }
+
+.view-map {
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+
+.defolum-button {
+  background-color:#3f693c;
+  border-color :transparent;
+  outline:none;
+  cursor:pointer;
+  color:#ffffff;
+  font-size:smaller;
+  padding: 5px 15px;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4b4b4b;
+}
+
+.center-wrapper-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ededed;
+}
+
+.product-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 75%; 
+}
+
+.product-container-text {
+  height:50px;
+  width:100%;
+  margin-bottom:10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #4b4b4b;
+  flex-direction: column;
+}
+
+.product-container-text label {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.footer-icon-text {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.footer-icon-normal{
+  color : #4b4b4b;
+  font-size: 50px;
+}
+
+.footer-icon-larger{
+  color : #4b4b4b;
+  font-size: 50px;
+}
+
+.sub-text {
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4b4b4b;
+  text-align: center;
+  padding: 0px 15px 0px 15px;
+}
+
+.underline-hover {
+  height:2px;
+  background-color:#3f693c;
+  width:100px
+}
+.product-card {
+  min-height: 300px;
+  flex-basis: 20%;
+  position: relative;
+  margin: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.product-card-image {
+  flex: 4;
+}
+
+.product-card-footer {
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product-card-footer a {
+  color : #4b4b4b
+}
+
+.product-name {
+  margin-top: 10px;
+  font-weight: 100;
+  font-size:medium
+}
+
+.price {
+ font-weight: bolder;
+ font-size: smaller;
+}
+
+.product-container-see-all {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-container-see-all a {
+text-decoration: underline;
+font-size: 16px;
+font-weight: bolder;
+color:#4b4b4b;
+}
+
+.category {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category span {
+  font-weight: 300;
+  font-size: larger;
+}
+
+.fashion-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 75%; 
+}
+
+.fashion-card {
+  min-height: 400px;
+  flex-basis: 30%;
+  position: relative;
+  margin: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  color:#4b4b4b;
+}
+
+.fashion-card-image {
+  flex: 4;
+}
+
+.fashion-card-footer {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+
+.fashion-header{
+  font-weight:600;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 50px;
+  color:#4b4b4b;
+}
+
+.fashion-text{
+ font-weight: 100;
+ font-size:smaller;
+ margin-right: 50px;
+ color:#4b4b4b;
+}
+
+.read-all {
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: bolder;
+  color:#4b4b4b;
+  margin-top: 10px;
+}
+
+a:hover {
+  color : #4b4b4b
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.center-banner-button {
+  background-color:#333333;
+  color:#ffffff;
+  text-align:center;
+  width:100px;
+  position:absolute;
+  left:46%;
+  bottom:50px
+}
+
+.icon-cycle {
+ color:#4b4b4b;
+ font-size: 40px;
+ margin-right: 15px;
+ margin-bottom: 5px;
+}
+
+
+ @media only screen and (max-width: 800px) {
+
+  .nav-search {
+   display: none;
+  }
+
+ .nav-logo{
+   flex: 2;
+ }
+  .logo {
+    height: 35px;
+  }
+
+  .header-icon-cart {
+    margin-right: 10px;
+  }
+
+  .overlay-content {
+    width: 70%;
+  }
+
+  .center-banner-button , .centered, .services-bar, .button-text, .email-text, .header-top-banner {
+    display: none;
+  }
+
+  .exp-title {
+    font-size: 1.5em;
+  }
+
+  .exp-body > label {
+    font-size: 1.1em;
+    padding-top: 10px;
+  }
+
+  .exp-bar {
+    padding: 20px 0 20px 0;
+  }
+
+  .icon-cycle {
+    font-size: 35px;
+  }
+
+  .product-container-text label {
+    font-size: 20px;
+  }
+  
+  .footer-icon-text{
+    font-size: 14px;
+  }
+
+  .footer-icon-normal {
+    font-size: 40px;
+  }
+
+  .footer-icon-larger {
+   font-size:40px
+  }
+
+  .footer-email {
+    min-height: 150px;
+  }
+
+  .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffff;
+  }
+
+  .main-container {
+    padding-top: 75px;
+  }
+
+}
